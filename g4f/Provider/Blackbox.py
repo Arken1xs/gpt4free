@@ -110,7 +110,7 @@ class Blackbox(AsyncGeneratorProvider, ProviderModelMixin):
         "deepseek-v3": "DeepSeek-V3",
         "deepseek-r1": "DeepSeek-R1",
         "llama-3.3-70b": "Meta-Llama-3.3-70B-Instruct-Turbo",
-        "mixtral-small-28b": "Mistral-Small-24B-Instruct-2501",
+        "mistral-small-3": "Mistral-Small-24B-Instruct-2501",
         "deepseek-chat": "DeepSeek-LLM-Chat-(67B)",
         "dbrx-instruct": "DBRX-Instruct",
         "qwq-32b": "Qwen-QwQ-32B-Preview",
