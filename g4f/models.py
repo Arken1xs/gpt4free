@@ -243,7 +243,7 @@ llama_3_3_70b = Model(
 mixtral_8x7b = Model(
     name          = "mixtral-8x7b",
     base_provider = "Mistral",
-    best_provider = IterListProvider([DDG, Jmuz])
+    best_provider = Jmuz
 )
 mixtral_8x22b = Model(
     name          = "mixtral-8x22b",
@@ -257,10 +257,10 @@ mistral_nemo = Model(
     best_provider = IterListProvider([PollinationsAI, HuggingChat, HuggingFace])
 )
 
-mixtral_small_28b = Model(
-    name          = "mixtral-small-28b",
+mistral_small_3 = Model(
+    name          = "mistral-small-3",
     base_provider = "Mistral",
-    best_provider = IterListProvider([Blackbox, BlackboxAPI, DeepInfraChat])
+    best_provider = IterListProvider([DDG, Blackbox, BlackboxAPI, DeepInfraChat])
 )
 
 ### NousResearch ###
@@ -697,7 +697,7 @@ class ModelUtils:
         mixtral_8x7b.name: mixtral_8x7b,
         mixtral_8x22b.name: mixtral_8x22b,
         mistral_nemo.name: mistral_nemo,
-        mixtral_small_28b.name: mixtral_small_28b,
+        mistral_small_3.name: mistral_small_3,
 
         ### NousResearch ###
         hermes_2_dpo.name: hermes_2_dpo,
