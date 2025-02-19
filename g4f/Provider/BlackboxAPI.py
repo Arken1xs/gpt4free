@@ -31,7 +31,7 @@ class BlackboxAPI(AsyncGeneratorProvider, ProviderModelMixin):
         "deepseek-v3": "deepseek-ai/DeepSeek-V3",
         "deepseek-r1": "deepseek-ai/DeepSeek-R1",
         "deepseek-chat": "deepseek-ai/deepseek-llm-67b-chat",
-        "mixtral-small-28b": "mistralai/Mistral-Small-24B-Instruct-2501",
+        "mistral-small-3": "mistralai/Mistral-Small-24B-Instruct-2501",
         "dbrx-instruct": "databricks/dbrx-instruct",
         "qwq-32b": "Qwen/QwQ-32B-Preview",
         "hermes-2-dpo": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
